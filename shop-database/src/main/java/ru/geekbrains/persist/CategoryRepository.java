@@ -1,7 +1,8 @@
 package ru.geekbrains.persist;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.geekbrains.persist.model.Role;
+import org.springframework.data.jpa.repository.JpaSpecificationExecutor;
+import ru.geekbrains.persist.model.Category;
 
-public interface CategoryRepository extends JpaRepository<Role, Long> {
+public interface CategoryRepository extends JpaRepository<Category, Long>, JpaSpecificationExecutor<Category> {
 }
