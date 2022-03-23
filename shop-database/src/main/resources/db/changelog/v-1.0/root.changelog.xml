@@ -13,7 +13,7 @@
                  relativeToChangelogFile="true"
                  splitStatements="true"
                  stripComments="true"/>
-
-        <rollback/>
+        <rollback>
+        </rollback>
     </changeSet>
 </databaseChangeLog>
