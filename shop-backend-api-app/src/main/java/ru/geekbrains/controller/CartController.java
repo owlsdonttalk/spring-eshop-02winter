@@ -13,7 +13,7 @@ import ru.geekbrains.service.dto.LineItem;
 
 import java.util.List;
 
-@RequestMapping("/cart")
+@RequestMapping("/v1/cart")
 @RestController
 public class CartController {
 
